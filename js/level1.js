@@ -38,7 +38,7 @@
 
 // TODO: Now try to create an alert with any phrase you like.
 
-
+  alert("Jvascript workshop");
 
 
 
@@ -48,6 +48,8 @@
 
 // TODO: Shall we try to console.log the message to the browser?
 // Send any message you like.
+
+  console.log("Hello world");
 
 
 
@@ -83,7 +85,8 @@
 
 // TODO: Now create two empty variables named numberOne and numberTwo.
 
-
+    var numberOne;
+    var numberTwo;
 
 
 /*
@@ -100,7 +103,9 @@
 // TODO: Create 2 variables, 1 with your name and the 2nd with your age and display
 // them with an alert pop-up box.
 
-
+     var name = "Reena";
+     var age = 25;
+     alert(name + age);
 
 
 
