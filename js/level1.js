@@ -181,9 +181,12 @@
 // Step 2 - This function should return us a sum of num1 and num2.
 // Step 3 - Call the function passing numbers 2 and 3 as arguments.
 // - To see the result you can console.log it.
+  
+   function add(num1,num2) {
+    return num1+num2;
+    }
 
-
-
+     console.log(add(2,3));
 
 
 
@@ -195,8 +198,10 @@
 // those numbers and pass them as an arguments to your function? Try it out!
 
 
-
-
+    function subtract(num1,num2) {
+        return num1-num2;
+    }
+      console.log(subtract(10,6));
 
 
 
