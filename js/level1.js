@@ -260,13 +260,13 @@
 //
 // Don't forget to console.log it to see the result.
    
-var operator = '-';
-if (operator === '-') {
-  return subtract;
-} else if(operator === '+') {
-  return add;
-}
-operator(20,10);
+// var operator = '-';
+// if (operator === '-') {
+//   return subtract;
+// } else if(operator === '+') {
+//   return add;
+// }
+// operator(20,10);
 
 // function operations(a, b, operator = '-') {
 //   if (operator === '-') {
