@@ -259,9 +259,29 @@
 // else the subtract function with any 2 numbers.
 //
 // Don't forget to console.log it to see the result.
+   
+var operator = '-';
+if (operator === '-') {
+  return subtract;
+} else if(operator === '+') {
+  return add;
+}
+operator(20,10);
 
+// function operations(a, b, operator = '-') {
+//   if (operator === '-') {
+//     return subtract(a, b);
+//   } else if(operator === '+') {
+//     return add(a, b);
+//   }
+//   return 10
+// }
 
-
+// operations(10, 2) // 8
+// operations(10, 2, '*') // 10
+// operations(10, 2, '-') // 8
+// operations(11, 10, 2, '-') // 10
+// operations(11, 'a', '-', '-') // NaN
 
 
 
