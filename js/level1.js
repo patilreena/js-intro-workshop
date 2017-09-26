@@ -140,7 +140,10 @@
 // 1st variable multiplied by the 2nd variable. And in the end display the
 // value of multipleOfNumbers.
 
-
+     var x = 10;
+     var y = 3;
+     var multipleOfNumbers = x * y;
+     console.log(multipleOfNumbers);
 
 
 
