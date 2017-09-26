@@ -260,6 +260,15 @@
 //
 // Don't forget to console.log it to see the result.
    
+
+
+   var operator = '-';
+   if (operator == '+'){
+      console.log(add(10,10));
+   } else {
+    console.log(subtract(100,10));
+   } 
+
 // var operator = '-';
 // if (operator === '-') {
 //   return subtract;
@@ -326,8 +335,15 @@
 // function, else console.log - "Sorry, we don't know this operator".
 
 
+  function multiply(num1,num2){
+    return num1*num2;
+  }
+  console.log(multiply(5,5));
 
-
+  function divide(num1,num2){
+    return num1/num2;
+  }
+  console.log(divide(100,10));
 
 
 
