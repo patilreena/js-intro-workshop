@@ -90,7 +90,8 @@
 
      
     var favouriteFood = ['cake','fruits','chips'];
-    var secondItem = favouriteFood[2];
+    var firstItem = favouriteFood[0];
+    console.log(firstItem)
 
 
 
@@ -119,7 +120,9 @@
 // Don't forget, index positions start from 0!
 
 
-
+   var favouriteFood = ['cake','fruits','chips'];
+   favouriteFood[1] = 'burger';
+   console.log(favouriteFood);
 
 
 
