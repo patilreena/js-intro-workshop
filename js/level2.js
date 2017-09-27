@@ -43,7 +43,7 @@
 // things you like.
 
 
-
+    var favouriteFood = ['cake','fruits','chips'];
 
 
 /*
@@ -61,7 +61,8 @@
 // TODO: Check how many values you have in your array favouriteFood.
 // console.log the result.
 
-
+    var favouriteFood = ['cake','fruits','chips'];
+    console.log(favouriteFood.length);
 
 
 
@@ -87,7 +88,9 @@
 
 // TODO: Get third element from your array favouriteFood and console.log it.
 
-
+     
+    var favouriteFood = ['cake','fruits','chips'];
+    var secondItem = favouriteFood[2];
 
 
 
