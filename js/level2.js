@@ -145,7 +145,11 @@
 // TODO: Let's extend your list of favouriteFood and add one more value to it.
 // console.log list your favouriteFood and check it.
 
+   
 
+   var favouriteFood = ['cake','fruits','chips'];
+    favouriteFood.push('fried-rice');
+    console.log(favouriteFood);
 
 
 
