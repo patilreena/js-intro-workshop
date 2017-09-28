@@ -206,7 +206,12 @@
 // TODO: Using a 'while loop', tell your computer to log the numbers from
 // ten to one.
 
-
+    var number = 0;
+    while (number < 10)
+    {
+        console.log(number);
+        number = number + 1;
+    }
 
 
 
