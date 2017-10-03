@@ -235,7 +235,10 @@
 
 // TODO: Log every 3rd number from three to 22 using a 'for loop'.
 
-
+    var i;
+    for (i = 3; i <=23; i = i + 1) {
+        console.log(i);
+    }
 
 
 
